@@ -1,6 +1,5 @@
-var url = 'https://pokeapi.co/api/v2/ability/?limit=10&offset=20'
-
-var sogo= 'https://www.google.com'
+var url = 'https://pokeapi.co/api/v2/pokemon/'
+//
 
 var template = $('.template')
   .clone()
@@ -9,10 +8,8 @@ var template = $('.template')
 
 function loadPokemon(pokemon) {
       $.each(pokemon.results, function(i, pokemon) {
-      addPokemon(pokemon)
-      $.each(pokemon.pokemon, function(i, entry){
-      console.log(entry.pokemon.name);
-    }):
+          // addPokemon(pokemon.name);
+          console.log(pokemon.name);
   });
 }
 
@@ -33,5 +30,5 @@ function addPokemon(pokemon) {
 
 $.get({
   url: url,
-  success: loadPokemon,
+  success: loadPokemon
 });
