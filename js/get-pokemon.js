@@ -8,17 +8,11 @@ var template = $('.template')
   .detach();
 
 function loadPokemon(pokemon) {
-    $.each(pokemon.results, function(i, pokemon) {
-    addPokemon(pokemon)
-    $.each(pokemon.pokemon, function(i, entry){
-  console.log(entry.pokemon.name);
-});
-
-
-
-
-
-
+      $.each(pokemon.results, function(i, pokemon) {
+      addPokemon(pokemon)
+      $.each(pokemon.pokemon, function(i, entry){
+      console.log(entry.pokemon.name);
+    }):
   });
 }
 
