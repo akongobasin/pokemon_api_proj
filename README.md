@@ -1,10 +1,9 @@
-# pokemon_api_proj
-
-Pokemon API Project 
 
 
-#Description:
+#Pokemon API Project 
 
-#Authors: 
-  Sogo Akinyosoye
-  Michael Ketiku
+##Description:
+  
+##Authors: 
+  * Sogo Akinyosoye
+  * Michael Ketiku
