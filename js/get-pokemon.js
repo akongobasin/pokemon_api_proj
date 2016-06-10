@@ -8,8 +8,10 @@ var template = $('.template')
 
 function loadPokemon(pokemon) {
       $.each(pokemon.results, function(i, pokemon) {
-          // addPokemon(pokemon.name);
-          console.log(pokemon.name);
+          addPokemon(pokemon.name);
+          //console.log(pokemon.name);
+
+          //logs pokemon name results in the console
   });
 }
 
