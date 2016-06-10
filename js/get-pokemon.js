@@ -1,4 +1,4 @@
-var url = 'https://pokeapi.co/api/v2/pokemon/'
+//var url = 'https://pokeapi.co/api/v2/pokemon/'
 //
 
 var template = $('.template')
